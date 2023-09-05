@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Listings</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+    integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+    crossorigin="anonymous"></script>
+  <script src="main.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="container">
+      <div class="nav-row flex">
+        <a href="#" class="flex logo">
+          <img src="images/2308_gogglebox_logo.png" alt="Gogglebox Logo" class="responsive-image" />
+        </a>
+        <nav class="flex">
+          <p class="nav-text">Sign In</p>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="categories">
+      <picture>
+        <source srcset="images/2308_mobile_hero.jpg" media="(max-width: 580px)">
+        <source srcset="images/2308_desktop_hero.jpg" media="(width > 580px)">
+        <img src="images/2308_desktop_hero.jpg" class="responsive-image" alt="Desktop Hero Image">
+      </picture>
+    </div>
+    <div class="categories">
+      <p class="title">Now Playing</p>
+      <div class="flex column-expand gap">
+        <div class="flex">
+          <img src="images/2308_01_now_playing.jpg" alt="Image of poster for Only Murders In The Building" class="responsive-image" />
+        </div>
+        <div class="flex column gap">
+          <img src="images/2308_02_now_playing.jpg" alt="Image of poster for Yellowjackets" class="responsive-image" />
+          <img src="images/2308_03_now_playing.jpg" alt="Image of poster for Stranger Things Season 4" class="responsive-image" />
+        </div>
+      </div>
+    </div>
+
+    <div class="categories">
+      <p class="title">Tomorrow's Schedule</p>
+      <div class="schedule-bar transparent-mask">
+      </div>
+    </div>
+
+  </main>
+  <footer class="flex copyright">
+    <p>&copy; Gogglebox 2023 All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

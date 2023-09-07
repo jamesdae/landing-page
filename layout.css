@@ -98,17 +98,11 @@ footer.copyright {
   }
 
   picture {
-    padding-top: clamp(1rem, 1.4vw + 1.2rem, 3.4rem);
-    padding-bottom: clamp(0.6rem, 1vw + 0.6rem, 2rem);
+    padding-top: clamp(1.75rem, 1.4vw + 1rem, 3.4rem);
+    padding-bottom: clamp(1rem, 1vw + 0.6rem, 2rem);
   }
 
   .schedule-bar {
     padding-top: 1rem;
   }
 }
-
-@media screen and (width > (1620px + 1rem) {
-    main.container {
-      padding: 0 0;
-    }
-  }
